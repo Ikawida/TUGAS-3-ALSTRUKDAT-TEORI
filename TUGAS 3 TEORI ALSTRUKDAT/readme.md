@@ -131,6 +131,31 @@ Hash table adalah struktur data yang digunakan untuk mempercepat proses pencaria
 
 Hash table juga dapat digunakan dalam aplikasi seperti pencarian kata dalam kamus, pengarsipan data, dan pengembangan algoritma data mining. Dalam beberapa kasus, hash table dapat menjadi alternatif yang efektif untuk algoritma pencarian biner, terutama dalam aplikasi yang memerlukan waktu pencarian yang konstan dan efisiensi dalam penggunaan sumber daya.
 
+Fungsi hash membuat pemetaan antara kunci dan nilai, hal ini dilakukan melalui penggunaan rumus matematika yang dikenal sebagai fungsi hash. Hasil dari fungsi hash disebut sebagai nilai hash atau hash. Nilai hash adalah representasi dari string karakter asli tetapi biasanya lebih kecil dari aslinya.
+
+Operasi Hash Table: 
+
+1.	Insertion:
+   
+Memasukkan data baru ke dalam hash table dengan memanggil fungsi hash untuk menentukan posisi bucket yang tepat, dan kemudian menambahkan data ke bucket tersebut.
+
+2.	Deletion:
+   
+Menghapus data dari hash table dengan mencari data menggunakan fungsi hash, dan kemudian menghapusnya dari bucket yang sesuai.
+
+3.	Searching:
+   
+Mencari data dalam hash table dengan memasukkan input kunci ke fungsi hash untuk menentukan posisi bucket, dan kemudian mencari data di dalam bucket yang sesuai.
+
+4.	Update:
+   
+Memperbarui data dalam hash table dengan mencari data menggunakan fungsi hash, dan kemudian memperbarui data yang ditemukan.
+
+5.	Traversal:
+   
+Melalui seluruh hash table untuk memproses semua data yang ada dalam tabel.
+
+
 Namun, hash table memiliki kendala, seperti collision, yang dapat diatasi dengan menggunakan teknik seperti hash matrix, chaining, re-hashing, linear probing, dan quadratic probing. Dalam beberapa implementasi, hash table digunakan sebagai tempat penyimpanan pointer untuk merangkai elemen dalam Linked List, sehingga dapat meningkatkan efisiensi dalam proses pencarian [3].
 
 

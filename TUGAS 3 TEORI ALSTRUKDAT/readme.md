@@ -23,6 +23,8 @@ Priority Queue dibedakan menjadi dua tipe:
 
 #### Kode Program 
 ```C++
+// Program Priority Queue
+
 #include <iostream>
 #include <vector>
 #include <limits.h>  // Digunakan untuk konstanta INT_MIN
@@ -161,6 +163,8 @@ Namun, hash table memiliki kendala, seperti collision, yang dapat diatasi dengan
 
 #### Kode Program 
 ```C++
+// Program Hash Table
+
 #include <iostream>
 #include <list>
 #include <string>
@@ -562,6 +566,8 @@ Hasil dari program ini adalah mencetak adjacency list dari graph yang telah kita
 
 #### Kode Program Tree
 ```C++
+// Program Tree
+
 #include <iostream>
 #include <queue>
 
